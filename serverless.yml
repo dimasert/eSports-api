@@ -1,0 +1,16 @@
+org: dimasert
+app: api-test
+name: react-starter
+component: website
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./dist
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  deploymentBucket:
+    name: 3r1ck-test

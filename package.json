@@ -1,0 +1,26 @@
+{
+  "homepage": "http://dimasert.github.io/eSports-api",
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "simple api test",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/dimasert/eSports-api.git"
+  },
+  "author": "Dimas Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {}
+}
